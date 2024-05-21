@@ -1,0 +1,40 @@
+<SessionManager>
+    <Sessions>
+        <Session>
+            <id>1</id>
+            <Images>
+                <image>
+                    <path>src/com/company/images/image1.ppm</path>
+                    <fileName>image1.ppm</fileName>
+                </image>
+                <image>
+                    <path>src/com/company/images/image2.ppm</path>
+                    <fileName>image2.ppm</fileName>
+                </image>
+            </Images>
+            <Transformations>
+                <transformation>
+                    <type>monochrome</type>
+                </transformation>
+                <transformation>
+                    <type>grayscale</type>
+                </transformation>
+            </Transformations>
+        </Session>
+        <Session>
+            <id>2</id>
+            <Images>
+                <image>
+                    <path>src/com/company/images/image1.ppm</path>
+                    <fileName>image1.ppm</fileName>
+                </image>
+            </Images>
+            <Transformations>
+                <transformation>
+                    <type>grayscale</type>
+                </transformation>
+
+            </Transformations>
+        </Session>
+    </Sessions>
+</SessionManager>
